@@ -1,25 +1,231 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15B38b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="DIc-54-tCd">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Code Pro LC.otf">
+            <string>Code-Pro-LC</string>
+        </mutableArray>
+        <mutableArray key="Proxima Nova Regular.otf">
+            <string>ProximaNova-Regular</string>
+            <string>ProximaNova-Regular</string>
+        </mutableArray>
+    </customFonts>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Item 2-->
+        <scene sceneID="R1A-2Q-07W">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="LoZ-Dm-fwa" customClass="YALSecondTestViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                        <viewControllerLayoutGuide type="top" id="wDK-yh-v20"/>
+                        <viewControllerLayoutGuide type="bottom" id="Vc0-FE-q2w"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <view key="view" contentMode="scaleToFill" id="fds-bH-res">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <animations/>
+                        <color key="backgroundColor" red="0.36862745099999999" green="0.35686274509999999" blue="0.58431372550000005" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <extendedEdge key="edgesForExtendedLayout" top="YES"/>
+                    <tabBarItem key="tabBarItem" title="Item 2" id="CEj-mJ-NWE"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Yf5-7B-C9B" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-301" y="-779"/>
+        </scene>
+        <!--Item 1-->
+        <scene sceneID="hEm-m0-IMq">
+            <objects>
+                <viewController id="kpu-zv-x4E" customClass="YALFirstTestViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gfQ-wW-s6R"/>
+                        <viewControllerLayoutGuide type="bottom" id="tSZ-Ej-eDe"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="zg2-0K-zPW">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Transactions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="amf-pF-yAo">
+                                <rect key="frame" x="29" y="41" width="181" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" red="1" green="0.57656920550000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 1" id="QwD-JN-djl"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Wkh-Fl-0Kb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-301" y="-1420"/>
+        </scene>
+        <!--Folding Tab Bar Controller-->
+        <scene sceneID="gWL-ae-zBc">
+            <objects>
+                <tabBarController id="DIc-54-tCd" customClass="YALFoldingTabBarController" sceneMemberID="viewController">
+                    <extendedEdge key="edgesForExtendedLayout" top="YES"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="mZa-U1-fSQ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="kpu-zv-x4E" kind="relationship" relationship="viewControllers" id="qlM-0R-kQ8"/>
+                        <segue destination="LoZ-Dm-fwa" kind="relationship" relationship="viewControllers" id="ZDU-bR-7pb"/>
+                        <segue destination="e8z-CX-2Ad" kind="relationship" relationship="viewControllers" id="yYe-G5-tlb"/>
+                        <segue destination="r3U-nh-wQg" kind="relationship" relationship="viewControllers" id="F5s-4b-aJS"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zX5-u9-y96" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-763" y="-898"/>
+        </scene>
+        <!--Item 4-->
+        <scene sceneID="h6e-rV-mdG">
+            <objects>
+                <viewController id="r3U-nh-wQg" customClass="YALFourthTestViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="h2k-nx-N0X"/>
+                        <viewControllerLayoutGuide type="bottom" id="QSN-Ed-UhB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fJ1-Ch-IwY">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" red="0.2274509804" green="0.68627450980000004" blue="0.46274509800000002" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 4" id="ffV-lv-19Q"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pgZ-kB-a4l" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-763" y="-105"/>
+        </scene>
+        <!--Itemc3-->
+        <scene sceneID="E7E-fz-fyu">
+            <objects>
+                <viewController id="e8z-CX-2Ad" customClass="YALThirdTestViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1vf-rb-I1r"/>
+                        <viewControllerLayoutGuide type="bottom" id="Yz7-Q2-sFo"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="r4v-Bp-xVR">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Ico-uV-ceI">
+                                <rect key="frame" x="0.0" y="80" width="320" height="359"/>
+                                <animations/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="1" minimumInteritemSpacing="1" id="Sv3-iL-ieL">
+                                    <size key="itemSize" width="320" height="85"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" reuseIdentifier="YALChatDemoCollectionViewCell" id="pFc-Gw-Uqp" customClass="YALChatDemoCollectionViewCell">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="85"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="85"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_01" translatesAutoresizingMaskIntoConstraints="NO" id="lEs-4s-7sA" userLabel="photoImageView">
+                                                    <rect key="frame" x="10" y="15" width="55" height="55"/>
+                                                    <animations/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="55" id="PUC-es-I0V"/>
+                                                        <constraint firstAttribute="height" constant="55" id="om1-bq-xC8"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ann Drewer" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fAo-u6-KBI" userLabel="nameLabel">
+                                                    <rect key="frame" x="80" y="23" width="105" height="21"/>
+                                                    <animations/>
+                                                    <fontDescription key="fontDescription" name="Code-Pro-LC" family="Code Pro LC" pointSize="18"/>
+                                                    <color key="textColor" red="0.42745098040000001" green="0.81176470590000005" blue="0.96470588239999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" fixedFrame="YES" text="Great news! And when will you..." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ag1-sj-5Bk" userLabel="messageLabel">
+                                                    <rect key="frame" x="80" y="46" width="202" height="16"/>
+                                                    <animations/>
+                                                    <fontDescription key="fontDescription" name="ProximaNova-Regular" family="Proxima Nova" pointSize="13"/>
+                                                    <color key="textColor" red="0.85882352939999995" green="0.86274509799999999" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Yesterday, 7:37 P.M." textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Xy-0q-0iM" userLabel="dateLabel">
+                                                    <rect key="frame" x="215" y="10" width="94.5" height="21"/>
+                                                    <animations/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="21" id="t1x-hE-UZB"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="ProximaNova-Regular" family="Proxima Nova" pointSize="11"/>
+                                                    <color key="textColor" red="0.6705882353" green="0.66274509800000003" blue="0.88235294119999996" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="notification" translatesAutoresizingMaskIntoConstraints="NO" id="nRH-tY-Zdm">
+                                                    <rect key="frame" x="302" y="34" width="18" height="18"/>
+                                                    <animations/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="18" id="QdU-5v-TTy"/>
+                                                        <constraint firstAttribute="width" constant="18" id="hmh-TR-Vmc"/>
+                                                    </constraints>
+                                                </imageView>
+                                            </subviews>
+                                            <animations/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                        <animations/>
+                                        <color key="backgroundColor" red="0.40000000000000002" green="0.38823529410000002" blue="0.61568627450000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="lEs-4s-7sA" firstAttribute="leading" secondItem="pFc-Gw-Uqp" secondAttribute="leading" constant="10" id="APm-EP-AB2"/>
+                                            <constraint firstAttribute="bottom" secondItem="lEs-4s-7sA" secondAttribute="bottom" constant="15" id="GbA-7o-SRK"/>
+                                            <constraint firstAttribute="trailing" secondItem="nRH-tY-Zdm" secondAttribute="trailing" id="dsj-0s-oHw"/>
+                                            <constraint firstAttribute="trailing" secondItem="6Xy-0q-0iM" secondAttribute="trailing" constant="10" id="iEN-bM-78V"/>
+                                            <constraint firstAttribute="centerY" secondItem="nRH-tY-Zdm" secondAttribute="centerY" id="tCt-xF-0QY"/>
+                                            <constraint firstItem="6Xy-0q-0iM" firstAttribute="top" secondItem="pFc-Gw-Uqp" secondAttribute="top" constant="10" id="tNI-sE-eew"/>
+                                        </constraints>
+                                        <connections>
+                                            <outlet property="chatImageView" destination="lEs-4s-7sA" id="9V4-lY-VZZ"/>
+                                            <outlet property="dateLabel" destination="6Xy-0q-0iM" id="Wnj-uN-rie"/>
+                                            <outlet property="messageLabel" destination="ag1-sj-5Bk" id="hfQ-xI-3iD"/>
+                                            <outlet property="notificationImageView" destination="nRH-tY-Zdm" id="lq3-ET-cY9"/>
+                                            <outlet property="userNameLabel" destination="fAo-u6-KBI" id="XXn-5t-owb"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="e8z-CX-2Ad" id="wNA-5a-JGb"/>
+                                    <outlet property="delegate" destination="e8z-CX-2Ad" id="1bg-8O-Jch"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" red="0.36862745099999999" green="0.35686274509999999" blue="0.58431372550000005" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Ico-uV-ceI" firstAttribute="leading" secondItem="r4v-Bp-xVR" secondAttribute="leading" id="3UF-3D-tpy"/>
+                            <constraint firstAttribute="bottom" secondItem="Ico-uV-ceI" secondAttribute="bottom" constant="80" id="IUP-1c-G4v"/>
+                            <constraint firstAttribute="trailing" secondItem="Ico-uV-ceI" secondAttribute="trailing" id="h50-Et-bvy"/>
+                        </constraints>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout" top="YES"/>
+                    <tabBarItem key="tabBarItem" title="Itemc3" id="0Lm-TZ-laG"/>
+                    <connections>
+                        <outlet property="chatDemoCollectionView" destination="Ico-uV-ceI" id="cWp-42-UbR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lPc-Sc-EEq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-301" y="-105"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="img_01" width="56" height="56"/>
+        <image name="notification" width="18" height="18"/>
+    </resources>
 </document>

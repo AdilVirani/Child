@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19797596D0DF60473D83C366 /* libPods-Child.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A3F5A8232886CE38E304A70 /* libPods-Child.a */; };
+		CC55F5C31BDC999600A22FD9 /* YALFirstTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC55F5BB1BDC999600A22FD9 /* YALFirstTestViewController.m */; settings = {ASSET_TAGS = (); }; };
+		CC55F5C41BDC999600A22FD9 /* YALFourthTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC55F5BD1BDC999600A22FD9 /* YALFourthTestViewController.m */; settings = {ASSET_TAGS = (); }; };
+		CC55F5C51BDC999600A22FD9 /* YALSecondTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC55F5BF1BDC999600A22FD9 /* YALSecondTestViewController.m */; settings = {ASSET_TAGS = (); }; };
+		CC55F5C61BDC999600A22FD9 /* YALChatDemoList.plist in Resources */ = {isa = PBXBuildFile; fileRef = CC55F5C01BDC999600A22FD9 /* YALChatDemoList.plist */; settings = {ASSET_TAGS = (); }; };
+		CC55F5C71BDC999600A22FD9 /* YALThirdTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC55F5C21BDC999600A22FD9 /* YALThirdTestViewController.m */; settings = {ASSET_TAGS = (); }; };
+		CC55F5CA1BDC99A300A22FD9 /* YALChatDemoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC55F5C91BDC99A300A22FD9 /* YALChatDemoCollectionViewCell.m */; settings = {ASSET_TAGS = (); }; };
 		CC9B33451BDC923700CEA8BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9B33441BDC923700CEA8BA /* main.m */; };
 		CC9B33481BDC923700CEA8BA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9B33471BDC923700CEA8BA /* AppDelegate.m */; };
 		CC9B334B1BDC923700CEA8BA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9B334A1BDC923700CEA8BA /* ViewController.m */; };
@@ -36,6 +43,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A3F5A8232886CE38E304A70 /* libPods-Child.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Child.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C03C816C132681EFF2421CD2 /* Pods-Child.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Child.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Child/Pods-Child.debug.xcconfig"; sourceTree = "<group>"; };
+		CC55F5BA1BDC999600A22FD9 /* YALFirstTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YALFirstTestViewController.h; path = "../../../Downloads/FoldingTabBar-2.iOS-master/Example/Example/ViewControllers/YALFirstTestViewController/YALFirstTestViewController.h"; sourceTree = "<group>"; };
+		CC55F5BB1BDC999600A22FD9 /* YALFirstTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YALFirstTestViewController.m; path = "../../../Downloads/FoldingTabBar-2.iOS-master/Example/Example/ViewControllers/YALFirstTestViewController/YALFirstTestViewController.m"; sourceTree = "<group>"; };
+		CC55F5BC1BDC999600A22FD9 /* YALFourthTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YALFourthTestViewController.h; path = "../../../Downloads/FoldingTabBar-2.iOS-master/Example/Example/ViewControllers/YALFouthTestViewController/YALFourthTestViewController.h"; sourceTree = "<group>"; };
+		CC55F5BD1BDC999600A22FD9 /* YALFourthTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YALFourthTestViewController.m; path = "../../../Downloads/FoldingTabBar-2.iOS-master/Example/Example/ViewControllers/YALFouthTestViewController/YALFourthTestViewController.m"; sourceTree = "<group>"; };
+		CC55F5BE1BDC999600A22FD9 /* YALSecondTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YALSecondTestViewController.h; path = "../../../Downloads/FoldingTabBar-2.iOS-master/Example/Example/ViewControllers/YALSecondTestViewController/YALSecondTestViewController.h"; sourceTree = "<group>"; };
+		CC55F5BF1BDC999600A22FD9 /* YALSecondTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YALSecondTestViewController.m; path = "../../../Downloads/FoldingTabBar-2.iOS-master/Example/Example/ViewControllers/YALSecondTestViewController/YALSecondTestViewController.m"; sourceTree = "<group>"; };
+		CC55F5C01BDC999600A22FD9 /* YALChatDemoList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = YALChatDemoList.plist; path = "../../../Downloads/FoldingTabBar-2.iOS-master/Example/Example/ViewControllers/YALThirdTestViewController/YALChatDemoList.plist"; sourceTree = "<group>"; };
+		CC55F5C11BDC999600A22FD9 /* YALThirdTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YALThirdTestViewController.h; path = "../../../Downloads/FoldingTabBar-2.iOS-master/Example/Example/ViewControllers/YALThirdTestViewController/YALThirdTestViewController.h"; sourceTree = "<group>"; };
+		CC55F5C21BDC999600A22FD9 /* YALThirdTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YALThirdTestViewController.m; path = "../../../Downloads/FoldingTabBar-2.iOS-master/Example/Example/ViewControllers/YALThirdTestViewController/YALThirdTestViewController.m"; sourceTree = "<group>"; };
+		CC55F5C81BDC99A300A22FD9 /* YALChatDemoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YALChatDemoCollectionViewCell.h; path = "../../../Downloads/FoldingTabBar-2.iOS-master/Example/Example/View/ChatDemoCollectionViewCell/YALChatDemoCollectionViewCell.h"; sourceTree = "<group>"; };
+		CC55F5C91BDC99A300A22FD9 /* YALChatDemoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YALChatDemoCollectionViewCell.m; path = "../../../Downloads/FoldingTabBar-2.iOS-master/Example/Example/View/ChatDemoCollectionViewCell/YALChatDemoCollectionViewCell.m"; sourceTree = "<group>"; };
+		CC55F5CB1BDC99E300A22FD9 /* Code Pro LC.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Code Pro LC.otf"; path = "../../../Downloads/FoldingTabBar-2.iOS-master/Example/Example/Resources/Font/Code Pro LC.otf"; sourceTree = "<group>"; };
+		CC55F5CC1BDC99E300A22FD9 /* Proxima Nova Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Proxima Nova Regular.otf"; path = "../../../Downloads/FoldingTabBar-2.iOS-master/Example/Example/Resources/Font/Proxima Nova Regular.otf"; sourceTree = "<group>"; };
 		CC9B33401BDC923700CEA8BA /* Child.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Child.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC9B33441BDC923700CEA8BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CC9B33461BDC923700CEA8BA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -53,6 +75,7 @@
 		CC9B33671BDC923700CEA8BA /* ChildUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChildUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC9B336B1BDC923700CEA8BA /* ChildUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChildUITests.m; sourceTree = "<group>"; };
 		CC9B336D1BDC923700CEA8BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3170523301BA19B64A664B7 /* Pods-Child.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Child.release.xcconfig"; path = "Pods/Target Support Files/Pods-Child/Pods-Child.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19797596D0DF60473D83C366 /* libPods-Child.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +104,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BDC311B41AAE41C4073EECB2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A3F5A8232886CE38E304A70 /* libPods-Child.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CC9B33371BDC923700CEA8BA = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +119,8 @@
 				CC9B335F1BDC923700CEA8BA /* ChildTests */,
 				CC9B336A1BDC923700CEA8BA /* ChildUITests */,
 				CC9B33411BDC923700CEA8BA /* Products */,
+				DAE0D2AC3E0E8D98FA35B801 /* Pods */,
+				BDC311B41AAE41C4073EECB2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,10 +141,23 @@
 				CC9B33471BDC923700CEA8BA /* AppDelegate.m */,
 				CC9B33491BDC923700CEA8BA /* ViewController.h */,
 				CC9B334A1BDC923700CEA8BA /* ViewController.m */,
+				CC55F5BA1BDC999600A22FD9 /* YALFirstTestViewController.h */,
+				CC55F5BB1BDC999600A22FD9 /* YALFirstTestViewController.m */,
+				CC55F5BC1BDC999600A22FD9 /* YALFourthTestViewController.h */,
+				CC55F5BD1BDC999600A22FD9 /* YALFourthTestViewController.m */,
+				CC55F5BE1BDC999600A22FD9 /* YALSecondTestViewController.h */,
+				CC55F5BF1BDC999600A22FD9 /* YALSecondTestViewController.m */,
+				CC55F5C01BDC999600A22FD9 /* YALChatDemoList.plist */,
+				CC55F5C11BDC999600A22FD9 /* YALThirdTestViewController.h */,
+				CC55F5C21BDC999600A22FD9 /* YALThirdTestViewController.m */,
 				CC9B334C1BDC923700CEA8BA /* Main.storyboard */,
+				CC55F5C81BDC99A300A22FD9 /* YALChatDemoCollectionViewCell.h */,
+				CC55F5C91BDC99A300A22FD9 /* YALChatDemoCollectionViewCell.m */,
 				CC9B33521BDC923700CEA8BA /* Assets.xcassets */,
 				CC9B33541BDC923700CEA8BA /* LaunchScreen.storyboard */,
 				CC9B33571BDC923700CEA8BA /* Info.plist */,
+				CC55F5CB1BDC99E300A22FD9 /* Code Pro LC.otf */,
+				CC55F5CC1BDC99E300A22FD9 /* Proxima Nova Regular.otf */,
 				CC9B334F1BDC923700CEA8BA /* Child.xcdatamodeld */,
 				CC9B33431BDC923700CEA8BA /* Supporting Files */,
 			);
@@ -143,6 +190,15 @@
 			path = ChildUITests;
 			sourceTree = "<group>";
 		};
+		DAE0D2AC3E0E8D98FA35B801 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C03C816C132681EFF2421CD2 /* Pods-Child.debug.xcconfig */,
+				F3170523301BA19B64A664B7 /* Pods-Child.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -150,9 +206,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CC9B33701BDC923700CEA8BA /* Build configuration list for PBXNativeTarget "Child" */;
 			buildPhases = (
+				5CEF0C046BBCE83557380F75 /* Check Pods Manifest.lock */,
 				CC9B333C1BDC923700CEA8BA /* Sources */,
 				CC9B333D1BDC923700CEA8BA /* Frameworks */,
 				CC9B333E1BDC923700CEA8BA /* Resources */,
+				EBE2A30141D2709C41FA0DAE /* Embed Pods Frameworks */,
+				8FCB6392DD21ED9A65CF598C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -251,6 +310,7 @@
 			files = (
 				CC9B33561BDC923700CEA8BA /* LaunchScreen.storyboard in Resources */,
 				CC9B33531BDC923700CEA8BA /* Assets.xcassets in Resources */,
+				CC55F5C61BDC999600A22FD9 /* YALChatDemoList.plist in Resources */,
 				CC9B334E1BDC923700CEA8BA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,15 +331,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5CEF0C046BBCE83557380F75 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8FCB6392DD21ED9A65CF598C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Child/Pods-Child-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBE2A30141D2709C41FA0DAE /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Child/Pods-Child-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CC9B333C1BDC923700CEA8BA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC55F5C51BDC999600A22FD9 /* YALSecondTestViewController.m in Sources */,
 				CC9B334B1BDC923700CEA8BA /* ViewController.m in Sources */,
+				CC55F5C41BDC999600A22FD9 /* YALFourthTestViewController.m in Sources */,
 				CC9B33481BDC923700CEA8BA /* AppDelegate.m in Sources */,
+				CC55F5CA1BDC99A300A22FD9 /* YALChatDemoCollectionViewCell.m in Sources */,
 				CC9B33511BDC923700CEA8BA /* Child.xcdatamodeld in Sources */,
 				CC9B33451BDC923700CEA8BA /* main.m in Sources */,
+				CC55F5C31BDC999600A22FD9 /* YALFirstTestViewController.m in Sources */,
+				CC55F5C71BDC999600A22FD9 /* YALThirdTestViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +529,7 @@
 		};
 		CC9B33711BDC923700CEA8BA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C03C816C132681EFF2421CD2 /* Pods-Child.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Child/Info.plist;
@@ -427,6 +541,7 @@
 		};
 		CC9B33721BDC923700CEA8BA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3170523301BA19B64A664B7 /* Pods-Child.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Child/Info.plist;
@@ -503,6 +618,7 @@
 				CC9B33721BDC923700CEA8BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CC9B33731BDC923700CEA8BA /* Build configuration list for PBXNativeTarget "ChildTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +627,7 @@
 				CC9B33751BDC923700CEA8BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CC9B33761BDC923700CEA8BA /* Build configuration list for PBXNativeTarget "ChildUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +636,7 @@
 				CC9B33781BDC923700CEA8BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
