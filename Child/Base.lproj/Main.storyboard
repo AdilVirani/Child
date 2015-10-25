@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15B38b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="DIc-54-tCd">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <customFonts key="customFonts">
         <mutableArray key="Code Pro LC.otf">
@@ -45,17 +46,8 @@
                     <view key="view" contentMode="scaleToFill" id="zg2-0K-zPW">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Transactions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="amf-pF-yAo">
-                                <rect key="frame" x="29" y="41" width="181" height="21"/>
-                                <animations/>
-                                <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
                         <animations/>
-                        <color key="backgroundColor" red="1" green="0.57656920550000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.9882352941176471" green="0.45882352941176469" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item 1" id="QwD-JN-djl"/>
                 </viewController>
@@ -118,7 +110,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Ico-uV-ceI">
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Ico-uV-ceI">
                                 <rect key="frame" x="0.0" y="80" width="320" height="359"/>
                                 <animations/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -144,22 +136,25 @@
                                                         <constraint firstAttribute="height" constant="55" id="om1-bq-xC8"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ann Drewer" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fAo-u6-KBI" userLabel="nameLabel">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ann Drewer" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fAo-u6-KBI" userLabel="nameLabel">
                                                     <rect key="frame" x="80" y="23" width="105" height="21"/>
                                                     <animations/>
                                                     <fontDescription key="fontDescription" name="Code-Pro-LC" family="Code Pro LC" pointSize="18"/>
                                                     <color key="textColor" red="0.42745098040000001" green="0.81176470590000005" blue="0.96470588239999999" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" fixedFrame="YES" text="Great news! And when will you..." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ag1-sj-5Bk" userLabel="messageLabel">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Great news! And when will you..." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ag1-sj-5Bk" userLabel="messageLabel">
                                                     <rect key="frame" x="80" y="46" width="202" height="16"/>
                                                     <animations/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="16" id="eYP-ei-hFB"/>
+                                                    </constraints>
                                                     <fontDescription key="fontDescription" name="ProximaNova-Regular" family="Proxima Nova" pointSize="13"/>
                                                     <color key="textColor" red="0.85882352939999995" green="0.86274509799999999" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Yesterday, 7:37 P.M." textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Xy-0q-0iM" userLabel="dateLabel">
-                                                    <rect key="frame" x="215" y="10" width="94.5" height="21"/>
+                                                    <rect key="frame" x="215" y="10" width="95" height="21"/>
                                                     <animations/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="21" id="t1x-hE-UZB"/>
@@ -183,12 +178,19 @@
                                         <animations/>
                                         <color key="backgroundColor" red="0.40000000000000002" green="0.38823529410000002" blue="0.61568627450000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
+                                            <constraint firstAttribute="bottomMargin" secondItem="ag1-sj-5Bk" secondAttribute="bottom" constant="15" id="93x-2T-bYC"/>
                                             <constraint firstItem="lEs-4s-7sA" firstAttribute="leading" secondItem="pFc-Gw-Uqp" secondAttribute="leading" constant="10" id="APm-EP-AB2"/>
                                             <constraint firstAttribute="bottom" secondItem="lEs-4s-7sA" secondAttribute="bottom" constant="15" id="GbA-7o-SRK"/>
+                                            <constraint firstItem="ag1-sj-5Bk" firstAttribute="top" secondItem="fAo-u6-KBI" secondAttribute="bottom" constant="2" id="Ln4-zX-eSP"/>
+                                            <constraint firstItem="fAo-u6-KBI" firstAttribute="leading" secondItem="ag1-sj-5Bk" secondAttribute="leading" id="cHc-lw-vDT"/>
                                             <constraint firstAttribute="trailing" secondItem="nRH-tY-Zdm" secondAttribute="trailing" id="dsj-0s-oHw"/>
                                             <constraint firstAttribute="trailing" secondItem="6Xy-0q-0iM" secondAttribute="trailing" constant="10" id="iEN-bM-78V"/>
+                                            <constraint firstItem="6Xy-0q-0iM" firstAttribute="leading" secondItem="fAo-u6-KBI" secondAttribute="trailing" constant="30" id="mLR-WJ-5rd"/>
                                             <constraint firstAttribute="centerY" secondItem="nRH-tY-Zdm" secondAttribute="centerY" id="tCt-xF-0QY"/>
                                             <constraint firstItem="6Xy-0q-0iM" firstAttribute="top" secondItem="pFc-Gw-Uqp" secondAttribute="top" constant="10" id="tNI-sE-eew"/>
+                                            <constraint firstItem="fAo-u6-KBI" firstAttribute="leading" secondItem="lEs-4s-7sA" secondAttribute="trailing" constant="15" id="vVg-o3-8sZ"/>
+                                            <constraint firstItem="fAo-u6-KBI" firstAttribute="top" secondItem="pFc-Gw-Uqp" secondAttribute="topMargin" constant="15" id="yS8-JY-b9d"/>
+                                            <constraint firstItem="nRH-tY-Zdm" firstAttribute="leading" secondItem="ag1-sj-5Bk" secondAttribute="trailing" constant="20" id="yl2-68-qPf"/>
                                         </constraints>
                                         <connections>
                                             <outlet property="chatImageView" destination="lEs-4s-7sA" id="9V4-lY-VZZ"/>
@@ -210,6 +212,7 @@
                         <constraints>
                             <constraint firstItem="Ico-uV-ceI" firstAttribute="leading" secondItem="r4v-Bp-xVR" secondAttribute="leading" id="3UF-3D-tpy"/>
                             <constraint firstAttribute="bottom" secondItem="Ico-uV-ceI" secondAttribute="bottom" constant="80" id="IUP-1c-G4v"/>
+                            <constraint firstItem="Ico-uV-ceI" firstAttribute="centerY" secondItem="r4v-Bp-xVR" secondAttribute="centerY" id="fWh-Uo-srA"/>
                             <constraint firstAttribute="trailing" secondItem="Ico-uV-ceI" secondAttribute="trailing" id="h50-Et-bvy"/>
                         </constraints>
                     </view>

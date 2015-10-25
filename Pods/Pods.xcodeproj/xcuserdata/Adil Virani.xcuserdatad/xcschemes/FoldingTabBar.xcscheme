@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'E2299C7080019E91E1B0B09B'
+               BlueprintIdentifier = '73289173B5D504531BDD4CFD'
                BlueprintName = 'FoldingTabBar'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libFoldingTabBar.a'>

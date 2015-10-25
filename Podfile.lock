@@ -1,5 +1,8 @@
 PODS:
+  - Bolts/Tasks (1.4.0)
   - FoldingTabBar (1.0.1)
+  - Parse (1.9.1):
+    - Bolts/Tasks (>= 1.4.0)
   - PNChart (0.8.7):
     - UICountingLabel (~> 1.2.0)
   - RESideMenu (4.0.7)
@@ -7,11 +10,14 @@ PODS:
 
 DEPENDENCIES:
   - FoldingTabBar (~> 1.0.1)
+  - Parse
   - PNChart
   - RESideMenu (~> 4.0.7)
 
 SPEC CHECKSUMS:
+  Bolts: 0e9bce58b9b9f5e8a7a4d47b16d2fabec289072b
   FoldingTabBar: 3e04c49dbe2b02c529561a4182bf017b928d04d2
+  Parse: 54a965c8c19a6dde90284ab654dbcc77ef8c001b
   PNChart: c1755716bbd45386d2035b2bf2ce73e6d3f8cb22
   RESideMenu: f24c508404b49c667344c54aba7e590883533958
   UICountingLabel: 1db4e7d023e1762171eb226d6dff47a7a84f27aa

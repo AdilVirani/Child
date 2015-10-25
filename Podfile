@@ -8,6 +8,7 @@ target 'Child' do
 pod 'RESideMenu', '~> 4.0.7'
 pod 'PNChart'
 pod 'FoldingTabBar', '~> 1.0.1'
+pod 'Parse'
 
 end
 
